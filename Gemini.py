@@ -19,7 +19,7 @@ def image_to_byte_array(image: Image) -> bytes:
 API_KEY = os.environ.get("AIzaSyCPlu3JJT2sw3PCQFpKvs_LB-zxS_mnhqo")
 genai.configure(api_key="AIzaSyCPlu3JJT2sw3PCQFpKvs_LB-zxS_mnhqo")
 
-st.image("./Banner.png", width=400)
+st.image("./Banner.png", width=800)
 st.write("")
 
 gemini_pro, gemini_vision = st.tabs(["Gemini Pro", "Gemini Pro Vision"])
